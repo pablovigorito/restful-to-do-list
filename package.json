@@ -1,0 +1,30 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablovigorito/restful-to-do-list.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Pablo Vigorito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablovigorito/restful-to-do-list/issues"
+  },
+  "homepage": "https://github.com/pablovigorito/restful-to-do-list#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  }
+}
